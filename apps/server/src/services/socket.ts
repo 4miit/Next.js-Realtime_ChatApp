@@ -1,8 +1,7 @@
 import { Server } from "socket.io";
 import Redis from "ioredis";
-import dotenv from "dotenv";
 
-dotenv.config();
+require('dotenv').config();
 
 
 const publisher = new Redis({
